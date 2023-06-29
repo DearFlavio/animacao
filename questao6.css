@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+
+}
+
+.caixa6 {
+position: relative;
+width:  200px;
+height: 200px;
+background-color: silver;
+animation-duration: 3s;
+animation-name: giro;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+ 
+
+
+}
+
+
+@keyframes giro {
+    0%{
+       
+       transform: rotateZ(0deg);
+    }
+
+
+    12%{
+        transform: rotateZ(45deg);  
+        background-color: red;
+    }
+
+    
+    25%{
+
+        transform: rotateZ(90deg);  
+        background-color: orange;
+    }
+
+    
+    37%{
+        transform: rotate(135deg);  
+        background-color: yellow;
+    }
+
+
+    50%{
+        transform: rotate(180deg);  
+        background-color: green;
+    }
+    62%{
+        transform: rotate(225deg);  
+        background-color: blue;
+    }
+
+    
+    75%{
+        transform: rotate(270deg);  
+        background-color: purple;
+    }
+
+    
+    87%{
+        transform: rotate(315deg);  
+        background-color: white;
+    }
+
+    
+
+    100%{
+        transform: rotateZ(360deg);
+    }
+}

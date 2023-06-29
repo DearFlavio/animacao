@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+
+}
+
+.caixa7 {
+position: relative;
+background-color: silver;
+animation-duration: 3s;
+animation-name: surgir;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+
+ 
+
+
+}
+
+@keyframes surgir {
+0% {
+    width: 0px ;
+    height: 0px;
+    background-color: #0cb7f2;
+
+}
+
+50%{
+    width: 100px ;
+    height: 100px;
+    background-color:pink;
+   
+
+
+}
+
+100%{
+
+    width: 200px ;
+    height:200px;
+    background-color: white;
+
+}
+
+
+
+
+
+}

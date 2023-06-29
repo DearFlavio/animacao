@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+
+}
+
+.quadrado{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: silver;
+}
+
+.a{
+  animation: movimentar 4s ease infinite;
+}
+
+.b{
+  animation: movimentar 4s ease infinite;
+  animation-delay: 2s;
+}
+
+.c{
+  animation:  movimentar 4s ease infinite;
+  animation-delay: 4s;
+}
+
+@keyframes movimentar{
+  0%{
+    top: 0;
+  }
+  25%{
+    top: 200px;
+  }
+  50%{
+    top: 0;
+  }
+  75%{
+    top: -200px;
+  }
+  100%{
+    top: 0;
+  }
+}
